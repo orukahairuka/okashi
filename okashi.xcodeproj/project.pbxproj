@@ -11,6 +11,7 @@
 		3B760F6F2BBAA85900B9C8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */; };
 		3B760F712BBAA85B00B9C8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */; };
 		3B760F742BBAA85B00B9C8E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B760F732BBAA85B00B9C8E9 /* Preview Assets.xcassets */; };
+		3B760F7B2BBAAF9600B9C8E9 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B760F732BBAA85B00B9C8E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3B760F6C2BBAA85900B9C8E9 /* okashiApp.swift */,
 				3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */,
+				3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */,
 				3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */,
 				3B760F722BBAA85B00B9C8E9 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B760F6F2BBAA85900B9C8E9 /* ContentView.swift in Sources */,
+				3B760F7B2BBAAF9600B9C8E9 /* OkashiData.swift in Sources */,
 				3B760F6D2BBAA85900B9C8E9 /* okashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.okashi";
+				PRODUCT_BUNDLE_IDENTIFIER = erichan1345;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.okashi";
+				PRODUCT_BUNDLE_IDENTIFIER = erichan1345;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
