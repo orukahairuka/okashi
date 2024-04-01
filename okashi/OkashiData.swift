@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//
 //お菓子データ検索用クラス
 class OkashiData: ObservableObject {
     //WebAPI検索用メソッド 第一引数:keyword 検索したいワード
