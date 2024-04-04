@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1F24A42BBEB76C0035AF2E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1F24A32BBEB76C0035AF2E /* Alamofire */; };
+		3B1F24A62BBEB76C0035AF2E /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1F24A52BBEB76C0035AF2E /* AlamofireDynamic */; };
 		3B760F6D2BBAA85900B9C8E9 /* okashiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F6C2BBAA85900B9C8E9 /* okashiApp.swift */; };
 		3B760F6F2BBAA85900B9C8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */; };
 		3B760F712BBAA85B00B9C8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */; };
 		3B760F742BBAA85B00B9C8E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B760F732BBAA85B00B9C8E9 /* Preview Assets.xcassets */; };
 		3B760F7B2BBAAF9600B9C8E9 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */; };
+		3BEB8DC62BBD7F8C004E86F4 /* NasaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB8DC52BBD7F8C004E86F4 /* NasaData.swift */; };
+		3BEB8DC92BBE379F004E86F4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BEB8DC82BBE379F004E86F4 /* Alamofire */; };
+		3BEB8DCB2BBE379F004E86F4 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3BEB8DCA2BBE379F004E86F4 /* AlamofireDynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,7 @@
 		3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B760F732BBAA85B00B9C8E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
+		3BEB8DC52BBD7F8C004E86F4 /* NasaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +34,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1F24A42BBEB76C0035AF2E /* Alamofire in Frameworks */,
+				3B1F24A62BBEB76C0035AF2E /* AlamofireDynamic in Frameworks */,
+				3BEB8DC92BBE379F004E86F4 /* Alamofire in Frameworks */,
+				3BEB8DCB2BBE379F004E86F4 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,7 @@
 				3B760F6C2BBAA85900B9C8E9 /* okashiApp.swift */,
 				3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */,
 				3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */,
+				3BEB8DC52BBD7F8C004E86F4 /* NasaData.swift */,
 				3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */,
 				3B760F722BBAA85B00B9C8E9 /* Preview Content */,
 			);
@@ -86,6 +97,12 @@
 			dependencies = (
 			);
 			name = okashi;
+			packageProductDependencies = (
+				3BEB8DC82BBE379F004E86F4 /* Alamofire */,
+				3BEB8DCA2BBE379F004E86F4 /* AlamofireDynamic */,
+				3B1F24A32BBEB76C0035AF2E /* Alamofire */,
+				3B1F24A52BBEB76C0035AF2E /* AlamofireDynamic */,
+			);
 			productName = okashi;
 			productReference = 3B760F692BBAA85900B9C8E9 /* okashi.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 3B760F602BBAA85900B9C8E9;
+			packageReferences = (
+				3BEB8DC72BBE379F004E86F4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3B760F6A2BBAA85900B9C8E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,6 +162,7 @@
 			files = (
 				3B760F6F2BBAA85900B9C8E9 /* ContentView.swift in Sources */,
 				3B760F7B2BBAAF9600B9C8E9 /* OkashiData.swift in Sources */,
+				3BEB8DC62BBD7F8C004E86F4 /* NasaData.swift in Sources */,
 				3B760F6D2BBAA85900B9C8E9 /* okashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +371,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BEB8DC72BBE379F004E86F4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B1F24A32BBEB76C0035AF2E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BEB8DC72BBE379F004E86F4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3B1F24A52BBEB76C0035AF2E /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BEB8DC72BBE379F004E86F4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		3BEB8DC82BBE379F004E86F4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BEB8DC72BBE379F004E86F4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3BEB8DCA2BBE379F004E86F4 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BEB8DC72BBE379F004E86F4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B760F612BBAA85900B9C8E9 /* Project object */;
 }
