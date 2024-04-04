@@ -108,13 +108,4 @@ struct ContentView: View {
 
 
 
-// SwiftUI App Entry Point
-@main
-struct YourApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
 
