@@ -74,8 +74,8 @@ struct ContentView: View {
     // 画像のURLを保持するための状態変数
     @State private var imageURLs: [String] = []
 
-    func getMarsPhotos(){
-        AF.request("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=M0ZZGM04AWECAV49ev2u58UDXyRnZVJHuDE5ONg3").response { response in
+    func getMarsPhotos(date: String){
+        AF.request("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=\(date)&api_key=M0ZZGM04AWECAV49ev2u58UDXyRnZVJHuDE5ONg3").response { response in
             do {
                 let decoder = JSONDecoder()
                 if let data = response.data {
@@ -101,7 +101,7 @@ struct ContentView: View {
             .frame(width: 100, height: 100)
         }
         .onAppear {
-            getMarsPhotos()
+            getMarsPhotos(date: "2020-6-3")
         }
     }
 }
