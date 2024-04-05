@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		3B1F24A92BBEC3B40035AF2E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1F24A82BBEC3B40035AF2E /* Alamofire */; };
+		3B445E5C2BBEF1C80046A06E /* MarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B445E5B2BBEF1C80046A06E /* MarsView.swift */; };
+		3B445E602BBFF8200046A06E /* NasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B445E5F2BBFF8200046A06E /* NasaController.swift */; };
 		3B760F6D2BBAA85900B9C8E9 /* okashiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F6C2BBAA85900B9C8E9 /* okashiApp.swift */; };
 		3B760F6F2BBAA85900B9C8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */; };
 		3B760F712BBAA85B00B9C8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */; };
 		3B760F742BBAA85B00B9C8E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B760F732BBAA85B00B9C8E9 /* Preview Assets.xcassets */; };
 		3B760F7B2BBAAF9600B9C8E9 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */; };
-		3BEB8DC62BBD7F8C004E86F4 /* NasaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB8DC52BBD7F8C004E86F4 /* NasaData.swift */; };
+		3BEB8DC62BBD7F8C004E86F4 /* NASAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB8DC52BBD7F8C004E86F4 /* NASAModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B445E5A2BBEC4F20046A06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B445E5B2BBEF1C80046A06E /* MarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsView.swift; sourceTree = "<group>"; };
+		3B445E5F2BBFF8200046A06E /* NasaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaController.swift; sourceTree = "<group>"; };
 		3B760F692BBAA85900B9C8E9 /* okashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B760F6C2BBAA85900B9C8E9 /* okashiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = okashiApp.swift; sourceTree = "<group>"; };
 		3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B760F732BBAA85B00B9C8E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
-		3BEB8DC52BBD7F8C004E86F4 /* NasaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaData.swift; sourceTree = "<group>"; };
+		3BEB8DC52BBD7F8C004E86F4 /* NASAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +73,10 @@
 				3B445E5A2BBEC4F20046A06E /* Info.plist */,
 				3B760F6C2BBAA85900B9C8E9 /* okashiApp.swift */,
 				3B760F6E2BBAA85900B9C8E9 /* ContentView.swift */,
+				3B445E5B2BBEF1C80046A06E /* MarsView.swift */,
 				3B760F7A2BBAAF9600B9C8E9 /* OkashiData.swift */,
-				3BEB8DC52BBD7F8C004E86F4 /* NasaData.swift */,
+				3BEB8DC52BBD7F8C004E86F4 /* NASAModel.swift */,
+				3B445E5F2BBFF8200046A06E /* NasaController.swift */,
 				3B760F702BBAA85B00B9C8E9 /* Assets.xcassets */,
 				3B760F722BBAA85B00B9C8E9 /* Preview Content */,
 			);
@@ -161,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B445E602BBFF8200046A06E /* NasaController.swift in Sources */,
 				3B760F6F2BBAA85900B9C8E9 /* ContentView.swift in Sources */,
 				3B760F7B2BBAAF9600B9C8E9 /* OkashiData.swift in Sources */,
-				3BEB8DC62BBD7F8C004E86F4 /* NasaData.swift in Sources */,
+				3B445E5C2BBEF1C80046A06E /* MarsView.swift in Sources */,
+				3BEB8DC62BBD7F8C004E86F4 /* NASAModel.swift in Sources */,
 				3B760F6D2BBAA85900B9C8E9 /* okashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
